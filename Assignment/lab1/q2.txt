@@ -1,0 +1,21 @@
+// Explain why do we want sometimes to use setImmediate instead of using setTimeout?
+
+setImmediate has a higher priority than setTimeout, and it executes the task immediately without any delay.
+
+// Explain the difference between process.nextTick and setImmediate?
+
+process.nextTick executes before I/O events, while setImmediate executes after I/O events and before timers 
+in the next event loop iteration.
+
+// Name 10 global modules/methods available in Node environment.
+
+require
+module
+exports
+__dirname
+__filename
+console
+setTimeout
+setInterval
+process
+Buffer

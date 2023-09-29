@@ -1,0 +1,1 @@
+{"name":"cpu","price":"2000"}{"name":"laptop","price":"3000"}
